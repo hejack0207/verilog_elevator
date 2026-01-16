@@ -1,0 +1,30 @@
+# Verilog simulation files
+*.vcd
+*.sim
+
+# Compiled binaries
+elevator_sim
+elevator_sim.exe
+
+# Verilator build artifacts
+obj_dir/
+*.mk
+*.d
+*.o
+*.a
+
+# Verilator generated files
+V*.cpp
+V*.h
+V*.mk
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
